@@ -9,7 +9,7 @@ nav:
   - title: "Home"
     url: "/"
   - title: "Machine Learning and AI Projects"
-    url: "/machine-learning/"
+    url: "/machine-learning"
   - title: "Data Visualization and Analysis"
     url: "/data-visualization/"
   - title: "Cloud Computing and Big Data"
