@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+
 # Welcome to my portfolio!
 
 Here are some of my projects:
