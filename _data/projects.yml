@@ -1,7 +1,44 @@
 - title: "Breast Cancer Diagnosis with ML"
   description: "Demonstrates the use of machine learning models for predicting breast cancer diagnoses."
   url: "https://github.com/username/breast-cancer-diagnosis-ml"
+  category: "Machine Learning and AI Projects"
 
-- title: "Predictive Maintenance using Machine Learning"
-  description: "Use machine learning models to predict equipment failures in a manufacturing process."
-  url: "https://github.com/username/predictive-maintenance-ml"
+#- title: "Predictive Maintenance using Machine Learning"
+#  description: "Use machine learning models to predict equipment failures in a manufacturing process."
+#  url: "https://github.com/username/predictive-maintenance-ml"
+#  category: "Machine Learning and AI Projects"
+
+#- title: "Interactive Dashboards with Power BI or Tableau"
+#  description: "Showcases interactive data visualizations providing insights into complex datasets."
+#  url: "https://github.com/username/interactive-dashboards"
+#  category: "Data Visualization and Analysis"
+
+#- title: "Exploratory Data Analysis with Python"
+#  description: "Comprehensive EDA on a dataset using libraries like Pandas, Seaborn, and Matplotlib."
+#  url: "https://github.com/username/eda-with-python"
+#  category: "Data Visualization and Analysis"
+
+#- title: "Scalable Data Pipelines on AWS"
+#  description: "Demonstrates building and deploying scalable data pipelines using AWS services."
+#  url: "https://github.com/username/aws-data-pipelines"
+#  category: "Cloud Computing and Big Data"
+
+#- title: "Spark and Databricks for Big Data Processing"
+#  description: "Uses Apache Spark on Databricks to process and analyze large datasets."
+#  url: "https://github.com/username/spark-databricks-big-data"
+#  category: "Cloud Computing and Big Data"
+
+#- title: "Genomic Data Analysis"
+#  description: "Analyzes genomic data, involving sequence alignment, variant calling, or gene expression analysis using Python bioinformatics libraries."
+#  url: "https://github.com/username/genomic-data-analysis"
+#  category: "Bioinformatics Projects"
+
+- title: "Advanced Process Control"
+  description: "Demonstrates the design and simulation of advanced process control systems using Matlab and Python"
+  url: "https://github.com/username/advanced-process-control"
+  category: "Control Systems and Process Optimization"
+
+- title: "Optimization Algorithms"
+  description: "Showcases optimization algorithms for process control, such as PID tuning or model predictive control (MPC)."
+  url: "https://github.com/username/optimization-algorithms"
+  category: "Control Systems and Process Optimization"
