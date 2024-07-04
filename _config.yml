@@ -18,5 +18,4 @@ nav:
     url: "/bioinformatics/"
   - title: "Control Systems and Process Optimization"
     url: "/control-systems/"
-  - title: "Teaching and Tutorials"
-    url: "/tutorials/"
+
