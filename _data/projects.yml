@@ -1,6 +1,6 @@
 - title: "Breast Cancer Diagnosis with ML"
   description: "Demonstrates the use of machine learning models for predicting breast cancer diagnoses."
-  url: "https://github.com/username/breast-cancer-diagnosis-ml"
+  url: "https://github.com/CarlosADuranVIllalobos/breast-cancer-diagnosis-ml"
   category: "Machine Learning and AI Projects"
 
 #- title: "Predictive Maintenance using Machine Learning"
@@ -35,10 +35,10 @@
 
 - title: "Advanced Process Control"
   description: "Demonstrates the design and simulation of advanced process control systems using Matlab and Python"
-  url: "https://github.com/username/advanced-process-control"
+  url: "https://github.com/CarlosADuranVIllalobos/advanced-process-control"
   category: "Control Systems and Process Optimization"
 
 - title: "Optimization Algorithms"
   description: "Showcases optimization algorithms for process control, such as PID tuning or model predictive control (MPC)."
-  url: "https://github.com/username/optimization-algorithms"
+  url: "https://github.com/CarlosADuranVIllalobos/optimization-algorithms"
   category: "Control Systems and Process Optimization"
