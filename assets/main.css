@@ -58,15 +58,15 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #007bff;
+  color: black; /* Default color */
 }
 
 nav ul li a:hover {
-  color: #ff6600; /* Change this to your desired hover color */
+  color: purple; /* Hover color */
 }
 
 nav ul li a.active {
-  color: #ff6600; /* Change this to your desired active color */
+  color: purple; /* Active color */
 }
 
 main {
@@ -80,5 +80,6 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
 
 
