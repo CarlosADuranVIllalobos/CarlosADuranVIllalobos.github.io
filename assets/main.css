@@ -81,5 +81,45 @@ footer {
   text-align: center;
 }
 
+button#theme-toggle {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button#theme-toggle:hover {
+  background-color: #555;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #bb86fc;
+}
+
+body.dark-mode nav ul li a:hover {
+  color: #ffcc00; /* Hover color in dark mode */
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.light-mode a {
+  color: #007bff;
+}
+
+body.light-mode nav ul li a:hover {
+  color: purple; /* Hover color in light mode */
+}
+
+
 
 
