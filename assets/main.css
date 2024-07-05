@@ -111,7 +111,10 @@ body.dark-mode .social-icons a {
   color: #e0e0e0;
 }
 
-body.dark-mode nav ul li a.active,
+body.dark-mode nav ul li a.active {
+  color: purple;
+}
+
 body.dark-mode nav ul li a:hover {
   color: purple;
 }
@@ -128,7 +131,10 @@ body.light-mode nav ul li a {
   color: #000000;
 }
 
-body.light-mode nav ul li a.active,
+body.light-mode nav ul li a.active {
+  color: purple;
+}
+
 body.light-mode nav ul li a:hover {
   color: purple;
 }
