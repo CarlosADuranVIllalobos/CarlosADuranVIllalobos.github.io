@@ -23,7 +23,7 @@
       <ul>
         {% for item in site.nav %}
           <li>
-            <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+            <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url or page.url == item.url | append: '/' %}active{% endif %}">{{ item.title }}</a>
           </li>
         {% endfor %}
       </ul>
