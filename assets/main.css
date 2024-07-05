@@ -10,6 +10,40 @@ header {
   text-align: center;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-content {
+  flex: 1;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #0073b1; /* LinkedIn blue for LinkedIn */
+}
+
+.social-icons a .fab.fa-github:hover {
+  color: #333; /* GitHub black */
+}
+
+.social-icons a .fas.fa-envelope:hover {
+  color: #c71610; /* Email red */
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -37,37 +71,5 @@ footer {
   background-color: #f8f9fa;
   padding: 10px;
   text-align: center;
-}
-
-.header-left {
-  display: flex;
-  align-items: center;
-}
-
-.header-left h1, .header-left p {
-  margin: 0 10px;
-}
-
-.social-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.social-icons a {
-  color: #333;
-  font-size: 1.5em;
-  text-decoration: none;
-}
-
-.social-icons a:hover {
-  color: #0073b1; /* LinkedIn blue for LinkedIn */
-}
-
-.social-icons a .fab.fa-github:hover {
-  color: #333; /* GitHub black */
-}
-
-.social-icons a .fas.fa-envelope:hover {
-  color: #c71610; /* Email red */
 }
 
