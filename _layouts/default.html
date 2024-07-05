@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-    <p><a href="https://github.com/CarlosADuranVillalobos" target="_blank">My GitHub Profile</a></p>
+    <div class="header-left">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+      <div class="social-icons">
+        <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/CarlosADuranVillalobos" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
     <nav>
       <ul>
         {% for item in site.nav %}
