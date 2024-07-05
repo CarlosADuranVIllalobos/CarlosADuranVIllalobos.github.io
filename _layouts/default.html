@@ -43,8 +43,10 @@
       body.classList.toggle('light-mode');
       if (body.classList.contains('dark-mode')) {
         themeToggle.innerHTML = '<i class="fas fa-adjust"></i>';
+        themeToggle.style.color = '#e0e0e0';
       } else {
         themeToggle.innerHTML = '<i class="fas fa-adjust"></i>';
+        themeToggle.style.color = '#333';
       }
     }
 
@@ -52,11 +54,14 @@
       const themeToggle = document.getElementById('theme-toggle');
       if (document.body.classList.contains('dark-mode')) {
         themeToggle.innerHTML = '<i class="fas fa-adjust"></i>';
+        themeToggle.style.color = '#e0e0e0';
       } else {
         themeToggle.innerHTML = '<i class="fas fa-adjust"></i>';
+        themeToggle.style.color = '#333';
       }
     });
   </script>
 </body>
 </html>
+
 
