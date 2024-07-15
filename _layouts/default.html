@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body class="dark-mode">
+<body>
   <header>
     <div class="header-content">
       <div class="social-icons">
@@ -22,8 +22,18 @@
     <nav>
       <ul>
         {% for item in site.nav %}
+          {% assign item_url = item.url | relative_url %}
+          {% assign page_url = page.url | relative_url %}
+          {% assign page_url_no_html = page_url | remove: '.html' %}
+          {% assign active_class = '' %}
+          {% if page_url_no_html == item_url or page_url_no_html == item_url | append: '/' %}
+            {% assign active_class = 'active' %}
+          {% else %}
+            {% assign active_class = 'inactive' %}
+          {% endif %}
           <li>
-            <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url or page.url == item.url | append: '/' %}active{% endif %}">{{ item.title }}</a>
+            <a href="{{ item_url }}" class="{{ active_class }}">{{ item.title }}</a>
+            <!-- <span style="display:block;">Page URL: {{ page_url }} | Item URL: {{ item_url }} | Active: {{ active_class }}</span> -->
           </li>
         {% endfor %}
       </ul>
@@ -39,24 +49,27 @@
     function toggleTheme() {
       const body = document.body;
       const themeToggle = document.getElementById('theme-toggle');
-      body.classList.toggle('dark-mode');
-      body.classList.toggle('light-mode');
       if (body.classList.contains('dark-mode')) {
-        themeToggle.innerHTML = '<i class="fas fa-adjust"></i>';
-        themeToggle.style.color = '#e0e0e0';
-      } else {
-        themeToggle.innerHTML = '<i class="fas fa-adjust"></i>';
+        body.classList.remove('dark-mode');
+        body.classList.add('light-mode');
+        localStorage.setItem('theme', 'light-mode');
         themeToggle.style.color = '#333';
+      } else {
+        body.classList.remove('light-mode');
+        body.classList.add('dark-mode');
+        localStorage.setItem('theme', 'dark-mode');
+        themeToggle.style.color = '#e0e0e0';
       }
     }
 
     document.addEventListener('DOMContentLoaded', (event) => {
+      const theme = localStorage.getItem('theme') || 'dark-mode'; // Default to dark mode
+      const body = document.body;
       const themeToggle = document.getElementById('theme-toggle');
-      if (document.body.classList.contains('dark-mode')) {
-        themeToggle.innerHTML = '<i class="fas fa-adjust"></i>';
+      body.classList.add(theme);
+      if (theme === 'dark-mode') {
         themeToggle.style.color = '#e0e0e0';
       } else {
-        themeToggle.innerHTML = '<i class="fas fa-adjust"></i>';
         themeToggle.style.color = '#333';
       }
     });

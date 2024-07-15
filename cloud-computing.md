@@ -4,7 +4,8 @@ title: Cloud Computing and Big Data
 ---
 
 # Cloud Computing and Big Data
-
+Page under construction
+{% comment %}
 Here are my projects related to Cloud Computing and Big Data:
 
 {% for project in site.data.projects %}
@@ -13,3 +14,4 @@ Here are my projects related to Cloud Computing and Big Data:
   - {{ project.description }}
 {% endif %}
 {% endfor %}
+{% endcomment %}

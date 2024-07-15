@@ -1,21 +1,23 @@
 title: "Carlos A. Duran Villalobos Portfolio"
 description: "A comprehensive portfolio showcasing projects in machine learning, data analysis, and more."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://CarlosADuranVillalobos.github.io/" # the base hostname & protocol for your site
+url: "https://carlosaduranvillalobos.github.io/" # the base hostname & protocol for your site
 theme: minima
 
 # Navigation menu
 nav:
   - title: "Home"
     url: "/"
-  - title: "Machine Learning and AI Projects"
+  - title: "Machine Learning & AI "
     url: "/machine-learning"
-  - title: "Data Visualization and Analysis"
+  - title: "Data Analysis & Viz"
     url: "/data-visualization"
-#  - title: "Cloud Computing and Big Data"
-#    url: "/cloud-computing/"
-#  - title: "Bioinformatics Projects"
-#    url: "/bioinformatics/"
-  - title: "Control Systems and Process Optimization"
+  - title: "Cloud & Big Data"
+    url: "/cloud-computing/"
+  - title: "Bioinformatics"
+    url: "/bioinformatics/"
+  - title: "Process Control"
     url: "/control-systems"
-
+  - title: "About"
+  #  url: "/about"
+    url: "/#about"

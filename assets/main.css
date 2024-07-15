@@ -34,18 +34,6 @@ header {
   text-decoration: none;
 }
 
-.social-icons a:hover {
-  color: #0073b1; /* LinkedIn blue for LinkedIn */
-}
-
-.social-icons a .fab.fa-github:hover {
-  color: #333; /* GitHub black */
-}
-
-.social-icons a .fas.fa-envelope:hover {
-  color: #c71610; /* Email red */
-}
-
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -69,10 +57,14 @@ nav ul li a.active {
   color: purple; /* Active color */
 }
 
+nav ul li a.inactive {
+  color: black; /* Inactive color */
+}
+
 main {
   padding: 20px;
-  margin-left: 4cm;
-  margin-right: 4cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
 }
 
 footer {
@@ -103,7 +95,7 @@ body.dark-mode {
 body.dark-mode header,
 body.dark-mode footer,
 body.dark-mode nav ul li a {
-  background-color: #121212;
+  background-color: #1d1d1dea;
   color: #e0e0e0;
 }
 
@@ -111,12 +103,28 @@ body.dark-mode .social-icons a {
   color: #e0e0e0;
 }
 
+body.dark-mode .social-icons a:hover {
+  color: #0073b1; /* LinkedIn blue for LinkedIn */
+}
+
+body.dark-mode .social-icons a .fab.fa-github:hover {
+  color: #333; /* GitHub black */
+}
+
+body.dark-mode .social-icons a .fas.fa-envelope:hover {
+  color: #c71610; /* Email red */
+}
+
 body.dark-mode nav ul li a.active {
-  color: purple;
+  color: rgb(64, 64, 251);
+}
+
+body.dark-mode nav ul li a.inactive {
+  color: #e0e0e0;
 }
 
 body.dark-mode nav ul li a:hover {
-  color: purple;
+  color: rgb(64, 64, 251);
 }
 
 body.light-mode {
@@ -127,9 +135,22 @@ body.light-mode {
 body.light-mode header,
 body.light-mode footer,
 body.light-mode nav ul li a {
-  background-color: #f8f9fa;
+  background-color: #f0f1f2;
   color: #000000;
 }
+
+body.light-mode .social-icons a:hover {
+  color: #0073b1; /* LinkedIn blue for LinkedIn */
+}
+
+body.light-mode .social-icons a .fab.fa-github:hover {
+  color: #e0e0e0; /* GitHub black */
+}
+
+body.light-mode .social-icons a .fas.fa-envelope:hover {
+  color: #c71610; /* Email red */
+}
+
 
 body.light-mode nav ul li a.active {
   color: purple;
