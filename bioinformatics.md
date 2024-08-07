@@ -4,14 +4,13 @@ title: Bioinformatics Projects
 ---
 
 # Bioinformatics Projects
-Page under construction
-{% comment %}
+
 #Here are my projects related to Bioinformatics:
 
 {% for project in site.data.projects %}
 {% if project.category == "Bioinformatics Projects" %}
-- [{{ project.title }}]({{ project.url }})
-  - {{ project.description }}
+- <a href="{{ project.url }}" class="contact-link" target="_blank">{{ project.title }}</a>  
+  {{ project.description }}
+  
 {% endif %}
 {% endfor %}
-{% endcomment %}
