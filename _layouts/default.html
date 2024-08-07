@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
+<body >
   <header>
     <div class="header-content">
       <div class="social-icons">
@@ -16,8 +16,6 @@
         <a href="mailto:duranvillalobos.carlos@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
       <h1>{{ site.title }}</h1>
-      <button id="theme-toggle" onclick="toggleTheme()"><i class="fas fa-adjust"></i></button>
-      <!-- <p>{{ site.description }}</p> -->
     </div>
     <nav>
       <ul>
@@ -33,46 +31,17 @@
           {% endif %}
           <li>
             <a href="{{ item_url }}" class="{{ active_class }}">{{ item.title }}</a>
-            <!-- <span style="display:block;">Page URL: {{ page_url }} | Item URL: {{ item_url }} | Active: {{ active_class }}</span> -->
           </li>
         {% endfor %}
       </ul>
     </nav>
   </header>
-  <main>
+  <main id="main-content" >
     {{ content }}
   </main>
   <footer>
     <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
   </footer>
-  <script>
-    function toggleTheme() {
-      const body = document.body;
-      const themeToggle = document.getElementById('theme-toggle');
-      if (body.classList.contains('dark-mode')) {
-        body.classList.remove('dark-mode');
-        body.classList.add('light-mode');
-        localStorage.setItem('theme', 'light-mode');
-        themeToggle.style.color = '#333';
-      } else {
-        body.classList.remove('light-mode');
-        body.classList.add('dark-mode');
-        localStorage.setItem('theme', 'dark-mode');
-        themeToggle.style.color = '#e0e0e0';
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', (event) => {
-      const theme = localStorage.getItem('theme') || 'dark-mode'; // Default to dark mode
-      const body = document.body;
-      const themeToggle = document.getElementById('theme-toggle');
-      body.classList.add(theme);
-      if (theme === 'dark-mode') {
-        themeToggle.style.color = '#e0e0e0';
-      } else {
-        themeToggle.style.color = '#333';
-      }
-    });
-  </script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>

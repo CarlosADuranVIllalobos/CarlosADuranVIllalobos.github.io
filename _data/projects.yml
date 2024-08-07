@@ -1,8 +1,65 @@
+
+#Machine learning and AI projects
+
 - title: "Breast Cancer Diagnosis with ML"
   description: "Demonstrates the use of machine learning models for predicting breast cancer diagnoses."
   url: "https://github.com/CarlosADuranVIllalobos/Breast_Cancer_Diagnosis_ML"
   category: "Machine Learning and AI Projects"
 
+- title: "Multivariate statistical data analysis of cell-free protein synthesis toward monitoring and control"
+  description: "This project involves the application of multivariate statistical data analysis for monitoring and control in cell-free protein synthesis."
+  url: "https://doi.org/10.1002/aic.17257"
+  category: "Machine Learning and AI Projects"
+
+
+#Data analysis and Viz
+
+- title: "Multivariate statistical data analysis of cell-free protein synthesis toward monitoring and control"
+  description: "This project involves the application of multivariate statistical data analysis for monitoring and control in cell-free protein synthesis."
+  url: "https://doi.org/10.1002/aic.17257"
+  category: "Data Visualization and Analysis"
+
+- title: "Structural and practical identifiability analysis in bioengineering: a beginner’s guide"
+  description: "A guide on structural and practical identifiability analysis in bioengineering."
+  url: "https://doi.org/10.1186/s13036-024-00410-x"
+  category: "Data Visualization and Analysis" 
+
+- title: "Interactive Dashboards with Tableau"
+  description: "Showcases interactive data visualizations providing insights into complex datasets."
+  url: "https://github.com/CarlosADuranVIllalobos/Interactive-Dashboards"
+  category: "Data Visualization and Analysis"
+
+# Process control projects
+
+- title: "Multivariate statistical process control of an industrial-scale fed-batch simulator"
+  description: "Application of multivariate statistical process control in an industrial-scale fed-batch simulator."
+  url: "https://doi.org/10.1016/j.compchemeng.2019.106620"
+  category: "Control Systems and Process Optimization"
+
+- title: "Multivariate batch to batch optimisation of fermentation processes incorporating validity constraints"
+  description: "Optimization of fermentation processes with validity constraints using multivariate statistical methods."
+  url: "https://doi.org/10.1016/j.jprocont.2016.07.002"
+  category: "Control Systems and Process Optimization"
+
+- title: "Fault Tolerant MPC for Fed-Batch Penicillin Production"
+  description: "Fault-tolerant model predictive control (MPC) applied to fed-batch penicillin production."
+  url: "https://ieeexplore.ieee.org/document/8516796"
+  category: "Control Systems and Process Optimization"
+
+- title: "Modern day monitoring and control challenges outlined on an industrial-scale benchmark fermentation process"
+  description: "Addressing modern monitoring and control challenges in industrial-scale fermentation processes."
+  url: "https://doi.org/10.1016/j.compchemeng.2019.05.037"
+  category: "Control Systems and Process Optimization"
+
+- title: "Multivariate batch to batch optimisation of fermentation processes to improve productivity"
+  description: "Optimization of fermentation processes using multivariate statistical methods to enhance productivity."
+  url: "https://doi.org/10.1016/j.jprocont.2021.11.007"
+  category: "Control Systems and Process Optimization"
+  
+- title: "Multivariate statistical data analysis of cell-free protein synthesis toward monitoring and control"
+  description: "This project involves the application of multivariate statistical data analysis for monitoring and control in cell-free protein synthesis."
+  url: "https://doi.org/10.1002/aic.17257"
+  category: "Control Systems and Process Optimization"
 #- title: "Predictive Maintenance using Machine Learning"
 #  description: "Use machine learning models to predict equipment failures in a manufacturing process."
 #  url: "https://github.com/username/predictive-maintenance-ml"
@@ -28,17 +85,19 @@
 #  url: "https://github.com/username/spark-databricks-big-data"
 #  category: "Cloud Computing and Big Data"
 
+## Bioinformatics
+
+- title: "Breast Cancer Diagnosis with ML"
+  description: "Demonstrates the use of machine learning models for predicting breast cancer diagnoses."
+  url: "https://github.com/CarlosADuranVIllalobos/Breast_Cancer_Diagnosis_ML"
+  category: "Bioinformatics Projects"
+
+- title: "Structural and practical identifiability analysis in bioengineering: a beginner’s guide"
+  description: "A guide on structural and practical identifiability analysis in bioengineering."
+  url: "https://doi.org/10.1186/s13036-024-00410-x"
+  category: "Bioinformatics Projects" 
+
 #- title: "Genomic Data Analysis"
 #  description: "Analyzes genomic data, involving sequence alignment, variant calling, or gene expression analysis using Python bioinformatics libraries."
 #  url: "https://github.com/username/genomic-data-analysis"
 #  category: "Bioinformatics Projects"
-
-- title: "Advanced Process Control"
-  description: "Demonstrates the design and simulation of advanced process control systems using Matlab and Python"
-  url: "https://github.com/CarlosADuranVIllalobos/advanced-process-control"
-  category: "Control Systems and Process Optimization"
-
-- title: "Optimization Algorithms"
-  description: "Showcases optimization algorithms for process control, such as PID tuning or model predictive control (MPC)."
-  url: "https://github.com/CarlosADuranVIllalobos/optimization-algorithms"
-  category: "Control Systems and Process Optimization"
