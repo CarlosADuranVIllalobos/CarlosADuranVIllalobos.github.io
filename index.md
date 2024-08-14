@@ -15,15 +15,6 @@ title: Home
 
 <div class="skills-table">
     <div class="skill-item">
-        <a href="./machine-learning">
-            <div class="image-wrapper">
-                <img src="/assets/images/machine_learning.jpg" alt="Machine Learning & AI">
-            </div>
-            <h3>Machine Learning & AI</h3>
-            <p>Explore projects related to machine learning models, including classification and regression.</p>
-        </a>
-    </div>
-    <div class="skill-item">
         <a href="./data-visualization">
             <div class="image-wrapper">
                 <img src="/assets/images/data_viz.jpg" alt="Data Analysis & Visualization">
@@ -32,7 +23,18 @@ title: Home
             <p>Discover interactive dashboards and exploratory data analysis projects.</p>
         </a>
     </div>
+
     <div class="skill-item">
+        <a href="./machine-learning">
+            <div class="image-wrapper">
+                <img src="/assets/images/machine_learning.jpg" alt="Machine Learning & AI">
+            </div>
+            <h3>Machine Learning & AI</h3>
+            <p>Explore projects related to machine learning models, including classification and regression.</p>
+        </a>
+    </div>
+    
+    <!-- <div class="skill-item">
         <a href="./cloud-computing">
             <div class="image-wrapper">
                 <img src="/assets/images/cloud_data.jpg" alt="Cloud & Big Data">
@@ -40,8 +42,8 @@ title: Home
             <h3>Cloud & Big Data</h3>
             <p>Learn about scalable data pipelines and big data processing projects.</p>
         </a>
-    </div>
-    <div class="skill-item">
+    </div> -->
+    <!-- <div class="skill-item">
         <a href="./bioinformatics">
             <div class="image-wrapper">
                 <img src="/assets/images/bioinformatics.jpg" alt="Bioinformatics">
@@ -49,7 +51,7 @@ title: Home
             <h3>Bioinformatics</h3>
             <p>Dive into genomic data analysis and protein structure prediction projects.</p>
         </a>
-    </div>
+    </div> -->
     <div class="skill-item">
         <a href="./control-systems">
             <div class="image-wrapper">

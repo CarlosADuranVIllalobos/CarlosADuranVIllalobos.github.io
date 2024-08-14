@@ -8,15 +8,36 @@
   --text-color: #000000; /* Text */
   --hover-color: #e9e9e9 ; /* Same as secondary color e0e1e2*/
   --secondary-color-darker: #cccccc; /* This will be updated by JavaScript it doesn't matter the value */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Montserrat', sans-serif; /* or 'Playfair Display', serif; */
+  --text-size: 18px; /* Base text size */
+  --header-size: 32px; /* Base size for headers */
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px; /* Increase the base font size */
+  font-family: var(--primary-font);
+  font-size: var(--text-size);
+  line-height: 1.6; /* Adjust line height for better readability */
   margin: 0;
   padding: 0;
   background: linear-gradient(to right, #c4c3c3, #e9e9e9 35%, #e9e9e9  65%, #c4c3c3) !important;
   color: var(--text-color);
+}
+
+h1, h2, h3 {
+  font-family: var(--secondary-font);
+}
+
+h1 {
+  font-size: calc(var(--text-size) * 2); /* 32px if text-size is 16px */
+}
+
+h2 {
+  font-size: calc(var(--text-size) * 1.75); /* 28px if text-size is 16px */
+}
+
+h3 {
+  font-size: calc(var(--text-size) * 1.5); /* 24px if text-size is 16px */
 }
 
 header {
@@ -230,14 +251,19 @@ h4 {
 .image-container {
   width: 16cm; /* Set desired width in cm */
   height: auto; /* Set desired height in cm */
-  overflow: hidden;
+  overflow: hidden; /* Ensures that the content does not overflow the bounds of its container */
   margin: 20px auto; /* Center the container */
+  transition: transform 0.3s ease; /* Smooth transition for zoom effect */
 }
 
 .image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensure the image covers the container */
+}
+
+.image-container:hover {
+  transform: scale(1.1); /* Scales up the entire container to 110% of its original size on hover */
 }
 
 /* Tables */
@@ -297,6 +323,7 @@ h4 {
   padding: 20px;
   /*background-color: var(--secondary-color);*/
   border-radius: 8px;
+  border: 4px solid var(--primary-color); 
 }
 
 
@@ -325,5 +352,63 @@ h4 {
   }
   to {
     opacity: 1;
+  }
+}
+/* Media queries doe small screens */
+@media (max-width: 768px) {
+  .header-content {
+      flex-direction: column;
+  }
+
+  nav ul {
+      padding: 0;
+      text-align: center;
+  }
+
+  nav ul li {
+      display: block; /* Stack the navigation links */
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .social-icons {
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+
+  main {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+  .grid-container {
+      grid-template-columns: 1fr; /* Stack grid items */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 16px; /* Smaller base font size for mobile */
+  }
+
+  h1, h2, h3 {
+      line-height: 1.2;
+  }
+}
+@media (max-width: 768px) {
+  nav ul li a, .social-icons a {
+      font-size: 1.5em; /* Larger touch targets */
+  }
+}
+.horizontal-images {
+  display: flex;
+  justify-content: space-around; /* Distributes space evenly around the items */
+  align-items: center; /* Aligns items vertically in the center */
+  flex-wrap: wrap; /* Allows items to wrap onto the next line as needed */
+}
+
+@media (max-width: 768px) {
+  .horizontal-images {
+    flex-direction: column; /* Stacks the images vertically on smaller screens */
   }
 }

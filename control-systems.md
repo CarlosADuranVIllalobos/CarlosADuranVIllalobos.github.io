@@ -14,9 +14,11 @@ title: Control Systems and Process Optimization
 </div>
 
 
-## Featured Project: <a href="https://doi.org/10.1016/j.compchemeng.2019.106620" class="contact-link" target="_blank">Multivariate Statistical Process Control of an Industrial-Scale Fed-Batch Simulator</a>.
+## <a href="https://doi.org/10.1016/j.compchemeng.2019.106620" class="contact-link" target="_blank">Multivariate Statistical Process Control of an Industrial-Scale Fed-Batch Simulator</a>.
  
-Imagine you are running a large factory that produces penicillin. The main challenge is to ensure every batch of penicillin is consistently high quality. Maintaining consistent quality is difficult due to inherent variations in raw materials and process conditions. Each batch of penicillin might have different characteristics, making it hard to achieve uniform quality. Advanced control strategies can help mitigate these issues by predicting and adjusting for these variations in real-time.
+<h3>Project Overview</h3>
+
+<p>Imagine you are running a large factory that produces penicillin. The main challenge is to ensure every batch of penicillin is consistently high quality. Maintaining consistent quality is difficult due to inherent variations in raw materials and process conditions. Each batch of penicillin might have different characteristics, making it hard to achieve uniform quality. Advanced control strategies can help mitigate these issues by predicting and adjusting for these variations in real-time.</p>
 
 <h3 class="centered-heading">
     The Solution: Using Advanced Control Strategies
@@ -24,8 +26,7 @@ Imagine you are running a large factory that produces penicillin. The main chall
 <div class="grid-container grid-2x2">
   <div class="grid-item">
     <h4>Batch-to-Batch Optimization (B2B)</h4>
-    <p>This strategy involves adjusting the conditions of each new batch based on the results of previous batches. By learning from past batches, the process can be fine-tuned to improve quality and consistency over time. This iterative approach ensures that the production process becomes more efficient and reliable with each batch.</p>
-    <p>In B2B optimization, the optimal MVT is obtained by iteratively updating the process model with data from each new batch. The model is used to solve an optimization problem that minimizes the difference between the desired and predicted outcomes, resulting in a progressively refined trajectory.</p>
+    <p>Engineered a feedback system that adapts production parameters from batch insights, continuously enhancing product quality and process efficiency.</p>
     <div class="image-container" style="width: 10cm;">
       <figure style="margin: 0;">
         <img src="assets/images/B2B.png" alt="b2b" style="width: 100%; height: auto;">
@@ -38,8 +39,7 @@ Imagine you are running a large factory that produces penicillin. The main chall
 
   <div class="grid-item">
     <h4>Model Predictive Control (MPC)</h4>
-    <p>MPC is a powerful control strategy that uses a model of the process to predict future outcomes and make real-time adjustments. In this project, MPC is used to adjust the glucose feed rate in the fermentation process, ensuring that the penicillin yield remains consistent. By predicting potential deviations and correcting them promptly, MPC minimizes variability between batches, leading to higher quality and more consistent production.</p>
-    <p>In MPC, the optimal MVT is achieved by solving an optimization problem at each control point to minimize deviations from the desired set-point, while considering constraints and the current state of the process.</p>
+    <p>Developed a predictive control model to manage glucose feed rates, stabilizing penicillin yields despite process variability.</p>
      <div class="image-container" style="width: 10cm;">
     <figure style="margin: 0;">
       <img src="assets/images/MPC.png" alt="b2b" style="width: 100%; height: auto;">
@@ -48,17 +48,16 @@ Imagine you are running a large factory that produces penicillin. The main chall
       </figcaption>
     </figure>
   </div>
-
-
   </div>
  
   <div class="grid-item">
     <h4>Validity Constraints</h4>
-    <p>To ensure the reliability of the predictive models used in MPC, validity constraints are applied. These constraints restrict the decisional space to conditions that are known to be valid based on historical data. This prevents the model from making predictions that are too far removed from the conditions it was trained on, thereby ensuring that the adjustments made are both safe and effective.</p>
+    <p>Implemented constraints within the predictive models to ensure safety and reliability of the control strategies based on historical data.</p>
   </div>
+
   <div class="grid-item">
-    <h4>Using Bootstrap Calculations</h4>
-    <p>Confidence intervals are essential for understanding the reliability of predictions made by the models. In this project, bootstrap calculations were used to determine these intervals, providing a robust measure of confidence. This approach ensures that the control strategies are not only effective but also reliable, with a clear understanding of the potential variability in outcomes.</p>
+    <h4>Bootstrap Calculations</h4>
+    <p>Applied bootstrap calculations to establish confidence intervals, providing a robust statistical foundation for predictive accuracy.</p>
   </div>
 </div>
 
