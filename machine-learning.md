@@ -38,7 +38,7 @@ title: Machine Learning and AI Projects
     </div>
 
     <div style="flex: 1; margin: 5px; overflow-x: auto;">
-      <table class="data-table" style="width: 60%">
+      <table class="data-table" style="width: 40%">
       <caption style="caption-side: top; text-align: center; font-size: 20px; font-weight: bold; margin: 10px 0;">Model Performance Metrics</caption>
         <thead>
           <tr>
