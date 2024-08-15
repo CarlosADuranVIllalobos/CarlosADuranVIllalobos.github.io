@@ -468,3 +468,20 @@ h4 {
   }
 }
 
+@media (max-width: 768px) {
+  .intro-container {
+    flex-direction: column; /* Stacks the children vertically */
+    align-items: center; /* Centers the items horizontally */
+    justify-content: center; /* Centers the items vertically for aesthetics */
+  }
+
+  .intro-container .text {
+    margin-right: 0; /* Removes the right margin */
+    text-align: center; /* Optionally centers the text */
+  }
+
+  .intro-container .circular-image-container {
+    margin-left: 0; /* Removes the left margin */
+    margin-bottom: 20px; /* Adds space below the image */
+  }
+}
