@@ -302,6 +302,10 @@ h4 {
   border-bottom: 2px solid var(--primary-color);
 }
 
+.data-table-container {
+  overflow-x: auto; /* Enables horizontal scrolling if the table exceeds the screen width */
+}
+
 
 /* Containers */
 .grid-container {
@@ -427,3 +431,35 @@ h4 {
       grid-template-columns: 1fr; /* Ensures grid items stack on smaller screens */
   }
 }
+
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr; /* Stack grid items vertically on small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-item {
+      padding: 10px; /* Reduce padding for small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-item a {
+      padding: 10px; /* Larger padding for better touch interaction */
+      font-size: larger; /* Increase font size for better readability */
+  }
+}
+
+@media (max-width: 768px) {
+  .data-table {
+      width: 100%; /* Allow the table to expand to the full width of the container */
+      max-width: none; /* Remove the max-width limit */
+      font-size: 0.9em; /* Optionally, reduce the font size to fit more content */
+  }
+
+  .data-table th, .data-table td {
+      padding: 8px 10px; /* Reduce padding to save space */
+  }
+}
+
