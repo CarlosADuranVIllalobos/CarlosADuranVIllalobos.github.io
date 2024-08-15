@@ -20,14 +20,14 @@ title: Data Visualization and Analysis
     <h3>Using Multivariate Statistical Tools</h3>
     <p>My role was pivotal in employing advanced statistical tools such as Principal Component Analysis (PCA) and Partial Least Squares (PLS), facilitating insightful data interpretations that directly impacted production strategies.</p>
 
-    <div class="image-container" style="width: 16cm;">
+    <div class="image-container" style="width: 100%;">
       <figure style="margin: 0;">
         <img src="/assets/images/PCA.png" alt="Statistical Analysis 1" style="width: 100%; height: auto;">
         <figcaption class="image-caption">Figure 2. "Principal component analysis (PCA) of datasets D1–D5... (a) PCA loadings plot. (b) PCA scores plot"  from Duran-Villalobos et al., 2021.</figcaption>
       </figure>
     </div>
     
-    <div class="image-container" style="width: 16cm;">
+    <div class="image-container" style="width: 100%;">
       <figure style="margin: 0;">
         <img src="/assets/images/PLS.png" alt="Statistical Analysis 2" style="width: 100%; height: auto;">
         <figcaption class="image-caption">Figure 3. "Comparison of partial least squares (PLS) regression coefficients between shorter (a) and longer reactions (b)..."  from Duran-Villalobos et al., 2021.</figcaption>
@@ -39,7 +39,7 @@ title: Data Visualization and Analysis
     <h3>Impact on CFPS Optimization</h3>
     <p>The insights gained from these analyses enabled us to optimize the CFPS process, enhancing both the yield and quality of the synthesized proteins. By understanding and controlling the critical process parameters, we achieved more consistent and reliable outcomes.</p>
 
-    <div class="image-container" style="width: 16cm;">
+    <div class="image-container" style="width: 100%;">
       <figure style="margin: 0;">
         <img src="/assets/images/Monitoring_CFPS.png" alt="Statistical Analysis 3" style="width: 100%; height: auto;">
         <figcaption class="image-caption">Figure 9. "Normalised cumulative SPE batch charts for process monitoring"  from Duran-Villalobos et al., 2021.</figcaption>
