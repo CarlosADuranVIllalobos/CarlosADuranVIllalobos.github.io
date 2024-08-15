@@ -96,7 +96,7 @@ title: Machine Learning and AI Projects
   <li><strong>Clinical Relevance:</strong> Insights from the models significantly enhance early detection and diagnosis, improving patient outcomes through timely and precise interventions.</li>
 </ul>
 
-<div class="image-container" style="width: width: 16cm;">
+<div class="image-container" style="width: 16cm;">
     <figure style="margin: 0;">
       <img src="/assets/images/Confusion_Matrix.png" alt="Confusion Matrix" style="width: 100%; height: auto;">
       <figcaption class="image-caption">Figure 2. Confusion matrix showing the performance of different machine learning techniques.</figcaption>
