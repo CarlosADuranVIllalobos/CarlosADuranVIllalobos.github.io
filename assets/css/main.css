@@ -250,7 +250,7 @@ h4 {
 
 .image-container {
   max-width: 100%; /* Use max-width to limit the container's size */
-  width: 600px; /* Set desired width in pixels */
+  width: 100%; /* Set desired width in pixels */
   height: auto; /* Set desired height in cm */
   overflow: hidden; /* Ensures that the content does not overflow the bounds of its container */
   margin: 20px auto; /* Center the container */
