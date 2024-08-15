@@ -425,18 +425,16 @@ h4 {
 
   .image-container {
     width: 95%; /* Adjust width to provide padding on small screens */
+    max-width: 100%; /* Allows the container to fit smaller devices */
   }
 
   .grid-container {
       grid-template-columns: 1fr; /* Ensures grid items stack on smaller screens */
+      padding: 10px 5px; /* Reduces padding to save space */
+      grid-gap: 10px; /* Decreases grid-gap for compact layout */
   }
 }
 
-@media (max-width: 768px) {
-  .grid-container {
-      grid-template-columns: 1fr; /* Stack grid items vertically on small screens */
-  }
-}
 
 @media (max-width: 768px) {
   .grid-item {
