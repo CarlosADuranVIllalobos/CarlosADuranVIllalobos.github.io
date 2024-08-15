@@ -433,9 +433,19 @@ h4 {
   }
 
   .grid-container {
-      grid-template-columns: 1fr; /* Ensures grid items stack on smaller screens */
-      padding: 10px 5px; /* Reduces padding to save space */
-      grid-gap: 10px; /* Decreases grid-gap for compact layout */
+    grid-template-columns: 1fr; /* Stack grid items in a single column on smaller screens */
+    width: 100%; /* Ensure the grid container uses the full width of the viewport */
+    max-width: 100%; /* Prevents the grid from exceeding the viewport width */
+    padding: 0; /* Remove padding to use the entire screen width */
+    margin: 0 auto; /* Center the grid within the viewport if necessary */
+    box-sizing: border-box; /* Include padding and border in the width calculation *
+  }
+  .grid-item {
+    width: 100%; /* Make grid items fill the container */
+    max-width: 100%; /* Prevents grid items from exceeding the container's width */
+    margin: 0; /* Remove any default margin */
+    padding: 10px; /* Maintain internal spacing */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
   }
 }
 
