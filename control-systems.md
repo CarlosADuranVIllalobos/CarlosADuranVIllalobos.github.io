@@ -27,7 +27,7 @@ title: Control Systems and Process Optimization
   <div class="grid-item">
     <h4>Batch-to-Batch Optimization (B2B)</h4>
     <p>Engineered a feedback system that adapts production parameters from batch insights, continuously enhancing product quality and process efficiency.</p>
-    <div class="image-container" style="width: 10cm;">
+    <div class="image-container" style="width: 100%;">
       <figure style="margin: 0;">
         <img src="assets/images/B2B.png" alt="b2b" style="width: 100%; height: auto;">
         <figcaption class="image-caption">
