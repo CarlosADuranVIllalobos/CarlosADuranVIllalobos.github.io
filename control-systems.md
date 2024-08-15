@@ -40,7 +40,7 @@ title: Control Systems and Process Optimization
   <div class="grid-item">
     <h4>Model Predictive Control (MPC)</h4>
     <p>Developed a predictive control model to manage glucose feed rates, stabilizing penicillin yields despite process variability.</p>
-     <div class="image-container" style="width: 10cm;">
+     <div class="image-container" style="width: 100%;">
     <figure style="margin: 0;">
       <img src="assets/images/MPC.png" alt="b2b" style="width: 100%; height: auto;">
       <figcaption class="image-caption">
@@ -64,7 +64,7 @@ title: Control Systems and Process Optimization
 ### Key Results
 **Improved Consistency and Yield:** By applying batch-to-batch optimization and MPC, the project demonstrated significant improvements in both the consistency and quality of the penicillin produced. The optimized process resulted in a more stable yield, with less variation between batches. This is crucial for meeting quality standards and ensuring the reliability of the production process.
 
-<div class="image-container" style="width: 18cm;">
+<div class="image-container" style="width: 100%;">
   <figure style="margin: 0;">
     <img src="assets/images/B2B_campaign.png" alt="b2b" style="width: 100%; height: auto;">
     <figcaption class="image-caption">

@@ -30,7 +30,7 @@ title: Machine Learning and AI Projects
 
 
 <div class="horizontal-images" style="display: flex; justify-content: space-around; align-items: center;">
-    <div class="image-container" style="flex: 1; margin: 5px; max-width: 22cm;">
+    <div class="image-container" style="flex: 1; margin: 5px; max-width: 100%;">
       <figure style="margin: 0;">
         <img src="/assets/images/Feature_Importance.png" alt="Feature Importance" style="width: 100%; height: auto;">
         <figcaption class="image-caption">Figure 1. Feature importance analysis highlighting key predictors of breast cancer.</figcaption>
@@ -38,7 +38,7 @@ title: Machine Learning and AI Projects
     </div>
 
     <div style="flex: 1; margin: 5px; overflow-x: auto;">
-      <table class="data-table" style="width: 100%">
+      <table class="data-table" style="width: 60%">
       <caption style="caption-side: top; text-align: center; font-size: 20px; font-weight: bold; margin: 10px 0;">Model Performance Metrics</caption>
         <thead>
           <tr>
@@ -96,7 +96,7 @@ title: Machine Learning and AI Projects
   <li><strong>Clinical Relevance:</strong> Insights from the models significantly enhance early detection and diagnosis, improving patient outcomes through timely and precise interventions.</li>
 </ul>
 
-<div class="image-container" style="width: 22cm;">
+<div class="image-container" style="width: 100%;">
     <figure style="margin: 0;">
       <img src="/assets/images/Confusion_Matrix.png" alt="Confusion Matrix" style="width: 100%; height: auto;">
       <figcaption class="image-caption">Figure 2. Confusion matrix showing the performance of different machine learning techniques.</figcaption>
