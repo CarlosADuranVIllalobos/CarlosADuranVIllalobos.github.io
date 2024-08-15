@@ -258,7 +258,7 @@ h4 {
 
 .image-container img {
   width: 100%;
-  height: 100%;
+  height: auto; /* Adjust height automatically */
   object-fit: cover; /* Ensure the image covers the container */
 }
 
@@ -410,5 +410,19 @@ h4 {
 @media (max-width: 768px) {
   .horizontal-images {
     flex-direction: column; /* Stacks the images vertically on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 14px; /* Further reduce font size for small devices */
+  }
+
+  .image-container {
+    width: 95%; /* Adjust width to provide padding on small screens */
+  }
+
+  .grid-container {
+      grid-template-columns: 1fr; /* Ensures grid items stack on smaller screens */
   }
 }
