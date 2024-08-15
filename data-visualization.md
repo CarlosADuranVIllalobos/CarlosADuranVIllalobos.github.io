@@ -70,7 +70,7 @@ title: Data Visualization and Analysis
 
     <p><a href="https://public.tableau.com/shared/3J6YJQFY9?:display_count=n&:origin=viz_share_link" class="contact-link" target="_blank">Tableau dashbord link</a></p>
 
-    <div class="image-container" style="width: 16cm;">
+    <div class="image-container" style="width: 100%;">
       <figure style="margin: 0;">
         <img src="/assets/images/dashboard_screenshot.png" alt="Dashboard screenshot" style="width: 100%; height: auto;">
         <figcaption class="image-caption"> Figure 1. "Interactive Dashboard Screenshot"</figcaption>
