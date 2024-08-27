@@ -6,6 +6,11 @@
   url: "https://github.com/CarlosADuranVIllalobos/Breast_Cancer_Diagnosis_ML"
   category: "Machine Learning and AI Projects"
 
+- title: "Health Assistant Chatbot using GPT-Neo"
+  description: "This project involves building a health assistant chatbot that provides health advice using a GPT-Neo model via the Hugging Face API. It includes fine-tuning and symptom analysis to predict possible illnesses and suggest further action."
+  url: "https://github.com/CarlosADuranVillalobos/Health-Assistant-Chatbot"
+  category: "Machine Learning and AI Projects"
+
 - title: "Multivariate statistical data analysis of cell-free protein synthesis toward monitoring and control"
   description: "This project involves the application of multivariate statistical data analysis for monitoring and control in cell-free protein synthesis."
   url: "https://doi.org/10.1002/aic.17257"
@@ -89,6 +94,12 @@
 #  description: "Uses Apache Spark on Databricks to process and analyze large datasets."
 #  url: "https://github.com/username/spark-databricks-big-data"
 #  category: "Cloud Computing and Big Data"
+
+- title: "Health Assistant Chatbot using GPT-Neo"
+  description: "This project involves building a health assistant chatbot that provides health advice using a GPT-Neo model via the Hugging Face API. It includes fine-tuning and symptom analysis to predict possible illnesses and suggest further action."
+  url: "https://github.com/CarlosADuranVillalobos/Health-Assistant-Chatbot"
+  category: "Cloud Computing and Big Data"
+
 
 ## Bioinformatics
 
