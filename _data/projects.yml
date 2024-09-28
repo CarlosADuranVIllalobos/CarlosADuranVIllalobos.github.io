@@ -21,6 +21,10 @@
   url: "https://doi.org/10.1016/j.compchemeng.2019.05.037"
   category: "Machine Learning and AI Projects"
 
+- title: "Business Performance and Customer Insights Dashboard using Power BI and SQL"
+  description: "This dashboard, built using Power BI and powered by SQL databases, offers comprehensive insights into sales performance, customer behavior, and user acquisition trends"
+  url: "https://github.com/CarlosADuranVIllalobos/Power_BI_Dashboard"
+  category: "Machine Learning and AI Projects"
 
 #Data analysis and Viz
 
@@ -37,6 +41,11 @@
 - title: "Interactive Dashboards with Tableau"
   description: "Showcases interactive data visualizations providing insights into complex datasets."
   url: "https://github.com/CarlosADuranVIllalobos/Interactive-Dashboards"
+  category: "Data Visualization and Analysis"
+
+- title: "Business Performance and Customer Insights Dashboard using Power BI and SQL"
+  description: "This dashboard, built using Power BI and powered by SQL databases, offers comprehensive insights into sales performance, customer behavior, and user acquisition trends"
+  url: "https://github.com/CarlosADuranVIllalobos/Power_BI_Dashboard"
   category: "Data Visualization and Analysis"
 
 # Process control projects
