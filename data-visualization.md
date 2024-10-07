@@ -23,17 +23,17 @@ title: Data Visualization and Analysis
     <div class="image-container" style="width: 100%;">
       <figure style="margin: 0;">
         <img src="/assets/images/PCA.png" alt="Statistical Analysis 1" style="width: 100%; height: auto;">
-        <figcaption class="image-caption">Figure 2. "Principal component analysis (PCA) of datasets D1–D5... (a) PCA loadings plot. (b) PCA scores plot"  from Duran-Villalobos et al., 2021.</figcaption>
+        <figcaption class="image-caption">Figure 1. "Principal component analysis (PCA) of datasets D1–D5... (a) PCA loadings plot. (b) PCA scores plot"  from Duran-Villalobos et al., 2021.</figcaption>
       </figure>
     </div>
-    
+   <!-- 
     <div class="image-container" style="width: 100%;">
       <figure style="margin: 0;">
         <img src="/assets/images/PLS.png" alt="Statistical Analysis 2" style="width: 100%; height: auto;">
         <figcaption class="image-caption">Figure 3. "Comparison of partial least squares (PLS) regression coefficients between shorter (a) and longer reactions (b)..."  from Duran-Villalobos et al., 2021.</figcaption>
       </figure>
     </div>
-
+    -->
     <div style="clear: both;"></div>
 
     <h3>Impact on CFPS Optimization</h3>
@@ -42,7 +42,7 @@ title: Data Visualization and Analysis
     <div class="image-container" style="width: 100%;">
       <figure style="margin: 0;">
         <img src="/assets/images/Monitoring_CFPS.png" alt="Statistical Analysis 3" style="width: 100%; height: auto;">
-        <figcaption class="image-caption">Figure 9. "Normalised cumulative SPE batch charts for process monitoring"  from Duran-Villalobos et al., 2021.</figcaption>
+        <figcaption class="image-caption">Figure 2. "Normalised cumulative SPE batch charts for process monitoring"  from Duran-Villalobos et al., 2021.</figcaption>
       </figure>
     </div>
 

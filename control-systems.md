@@ -18,7 +18,7 @@ title: Control Systems and Process Optimization
  
 <h3>Project Overview</h3>
 
-<p>Imagine you are running a large factory that produces penicillin. The main challenge is to ensure every batch of penicillin is consistently high quality. Maintaining consistent quality is difficult due to inherent variations in raw materials and process conditions. Each batch of penicillin might have different characteristics, making it hard to achieve uniform quality. Advanced control strategies can help mitigate these issues by predicting and adjusting for these variations in real-time.</p>
+<p>Ensuring consistent quality in industrial-scale penicillin production is a major challenge due to variations in raw materials and process conditions. Advanced control strategies help mitigate these challenges by predicting and adjusting for variations in real-time, improving product consistency.</p>
 
 <h3 class="centered-heading">
     The Solution: Using Advanced Control Strategies
@@ -103,7 +103,7 @@ title: Control Systems and Process Optimization
 </table>
 
 ### Conclusion
-By using advanced optimization and control techniques, this project demonstrates a significant improvement in the consistency and yield of penicillin production. The combination of batch-to-batch optimization and model predictive control, supported by reliable models and robust validation methods, offers a powerful approach to managing industrial-scale production processes.
+Using advanced control techniques, this project significantly improved the yield and consistency of penicillin production. The combination of batch-to-batch optimization and model predictive control showcases the power of advanced industrial control strategies.
 
 <h3>Read More</h3>
 <p>For a detailed exploration of our methods and results, you can read the full article:</p>

@@ -46,6 +46,10 @@ header {
   text-align: center;
 }
 
+.image-caption {
+  text-align: center;
+}
+
 .centered-heading {
   text-align: center;
   margin: 20px 0; /* Adjust margin as needed */
