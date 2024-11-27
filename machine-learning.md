@@ -96,13 +96,15 @@ title: Machine Learning and AI Projects
 </div>
 
 <h2>Projects</h2>
+
 Here are my projects related to Machine Learning and AI:
 
-<ul>
-  {% for project in site.data.projects %}
-    {% if project.category == "Machine Learning and AI" %}
-      <li><a href="{{ project.url }}" class="contact-link" target="_blank">{{ project.title }}</a>  
-      {{ project.description }}</li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% for project in site.data.projects %}
+{% if project.category == "Machine Learning and AI" %}
+- <a href="{{ project.url }}" class="contact-link" target="_blank">{{ project.title }}</a>  
+  {{ project.description }}
+  
+{% endif %}
+{% endfor %}
+
+
