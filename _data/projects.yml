@@ -4,27 +4,27 @@
 - title: "Breast Cancer Diagnosis with ML"
   description: "Demonstrates the use of machine learning models for predicting breast cancer diagnoses."
   url: "https://github.com/CarlosADuranVIllalobos/Breast_Cancer_Diagnosis_ML"
-  category: "Machine Learning and AI Projects"
+  category: "Machine Learning and AI"
 
 - title: "Health Assistant Chatbot using GPT-Neo"
   description: "This project involves building a health assistant chatbot that provides health advice using a GPT-Neo model via the Hugging Face API. It includes fine-tuning and symptom analysis to predict possible illnesses and suggest further action."
   url: "https://github.com/CarlosADuranVillalobos/Health-Assistant-Chatbot"
-  category: "Machine Learning and AI Projects"
+  category: "Machine Learning and AI"
 
 - title: "Multivariate statistical data analysis of cell-free protein synthesis toward monitoring and control"
   description: "This project involves the application of multivariate statistical data analysis for monitoring and control in cell-free protein synthesis."
   url: "https://doi.org/10.1002/aic.17257"
-  category: "Machine Learning and AI Projects"
+  category: "Machine Learning and AI"
 
 - title: "Modern day monitoring and control challenges outlined on an industrial-scale benchmark fermentation process"
   description: "Addressing modern monitoring and control challenges in industrial-scale fermentation processes."
   url: "https://doi.org/10.1016/j.compchemeng.2019.05.037"
-  category: "Machine Learning and AI Projects"
+  category: "Machine Learning and AI"
 
 - title: "Business Performance and Customer Insights Dashboard using Power BI and SQL"
   description: "This dashboard, built using Power BI and powered by SQL databases, offers comprehensive insights into sales performance, customer behavior, and user acquisition trends"
   url: "https://github.com/CarlosADuranVIllalobos/Power_BI_Dashboard"
-  category: "Machine Learning and AI Projects"
+  category: "Machine Learning and AI"
 
 #Data analysis and Viz
 
